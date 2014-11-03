@@ -27,7 +27,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'sqlite3'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
