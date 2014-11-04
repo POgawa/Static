@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails_12factor', group: :production
+
+
 gem 'pg'
 gem 'githubrepo'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -27,6 +28,16 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+
+group :production do
+	gem 'rails_12factor'
+end
+
+group :development do
+	gem 'sqlite3'
+end
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
