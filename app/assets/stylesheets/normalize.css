@@ -1,4 +1,4 @@
-/*! normalize.css v1.1.2 | MIT License | git.io/normalize */
+    /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
 
 /* ==========================================================================
    HTML5 display definitions
@@ -557,14 +557,14 @@ html, body {
 p, h1 { margin: 0; }
 h1 { margin-bottom: 0.2em; }
 p { line-height: 1.333em; }
- 
+
 /* full width/height container */
 #slides-container {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
- 
+
 /* double the height/width of a viewport */
 #slides {
     width: 200%;
@@ -581,7 +581,7 @@ p { line-height: 1.333em; }
     height:50%;
 }
 #slide-1 {
-    background: url('bcg_slide-1.jpg') no-repeat center center;
+    background-color: orange;
     background-size: cover;
 }
 #slide-2 {
@@ -592,7 +592,7 @@ p { line-height: 1.333em; }
     transform: translate(0,100%);
 }
 #slide-3 {
-    background: url('bcg_slide-3.jpg') no-repeat center center;
+    background-color: green;
     background-size: cover;
     -webkit-transform: translate(100%,100%);
     -ms-transform: translate(100%,100%);
@@ -604,7 +604,7 @@ p { line-height: 1.333em; }
     color: #47373f;
 }
 #slide-4 {
-    background: url('bcg_slide-4.jpg') no-repeat center center;
+    background-color: black;
     background-size: cover;
     -webkit-transform: translate(100%,0%);
     -ms-transform: translate(100%,0%);
@@ -752,7 +752,7 @@ p { line-height: 1.333em; }
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-    
+
     /* =Caption style */
     .caption {
         text-align: right;
@@ -840,5 +840,13 @@ p { line-height: 1.333em; }
     h3 {
         page-break-after: avoid;
     }
+
+
+
 }
+
+.funky {
+    position: center;
+}
+
 
