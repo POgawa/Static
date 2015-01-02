@@ -19,6 +19,14 @@
 @import "bootstrap";
 
 
-.black {color:black;}
+.black {
+	color:black;
+}
 
-.white {color:white;}
+.white {
+	color:white;
+}
+ 
+ .yellowtext{
+ 	color:yellow;
+ }
