@@ -554,12 +554,14 @@ html, body {
     text-align: right;
     color: #fff;
 }
-.caption1 {
+.captionleft {
     position: absolute;
     bottom: 5%;
     right: 5%;
     text-align: left;
     color: #fff;
+    margin:99 99 99 99;
+
 }
 p, h1 { margin: 0; }
 h1 { margin-bottom: 0.2em; }

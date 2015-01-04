@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require_bootstrap
  */
 
 
@@ -30,3 +31,22 @@
  .yellowtext{
  	color:yellow;
  }
+
+ .position{
+    text-align: center;
+     }
+div.center {
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 35%;
+  
+} 
+
+.style_image{
+	border-radius: 100%;
+	border-color: green;
+	border-width: 11px;
+	margin-left: 20%;
+  	margin-right: 15%;
+  }

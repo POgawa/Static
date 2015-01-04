@@ -14,21 +14,25 @@
 
             <div id="slide-1" class="slide">
 
-                <div class="caption"
+
+                <div class="center white"
                     data-40p="opacity: 1; transform:translate(0px,0px);"
                     data-70p="opacity: 0; transform:translate(0px,-100%);"
                     data-anchor-target="#helper">
+                        <div class="center">
 
-	                            <h1>Welcome to my website.</h1>
+                            <%= image_tag("og.jpg", :class => "style_image") %>	                 
+                            <h1>Hello, my name is Paul and welcome to my website.</h1>
+
 	                            <p>Portland based web devloper with Ruby on Rails skills.</p>
-
+                        </div>
                 </div>
             </div>
 
             <div id="slide-2" class="slide">
 
 
-                <div class="caption1"
+                <div class="captionleft"
                     data-130p="opacity: 0; transform:translate(0px,-200%);"
                     data-180p="opacity: 1; transform:translate(0px,0px);"
                     data-250p=""
@@ -69,8 +73,8 @@
                      <div class="white">
                         <h1>Contact info</h1>
                         <p>paul.ogawa AT gmail.com</p>
-                        <p><%= link_to image_tag("lindex.png", width: 40, height: 40 ), "http://www.linkedin.com/in/paulogawa/" %></p>
-                        <p><%= link_to image_tag("index.png", width: 40, height: 40 ), "http://www.github.com/pogawa/" %></p>
+                        <p><%= link_to image_tag("lindex.png", width: 60, height: 60 ), "http://www.linkedin.com/in/paulogawa/" %></p>
+                        <p><%= link_to image_tag("index.png", width: 60, height: 60 ), "http://www.github.com/pogawa/" %></p>
                     </div>
                 </div>
             </div>
