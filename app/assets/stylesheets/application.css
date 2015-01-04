@@ -30,15 +30,16 @@
  
  .yellowtext{
  	color:yellow;
- }
+}
 
  .position{
     text-align: center;
-     }
-div.center {
+}
+
+.centerslide1 {
   margin-left: 20%;
   margin-right: 15%;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-bottom: 35%;
   
 } 
@@ -49,4 +50,28 @@ div.center {
 	border-width: 11px;
 	margin-left: 20%;
   	margin-right: 15%;
-  }
+}
+
+.slide2_margin{
+	margin-left: 15%;
+}
+
+
+p.slide1{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
