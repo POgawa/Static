@@ -18,12 +18,13 @@
                     data-40p="opacity: 1; transform:translate(0px,0px);"
                     data-70p="opacity: 0; transform:translate(0px,-100%);"
                     data-anchor-target="#helper">
-                        <div class="white centerslide1">
+                        <div class="white slide1">
                  
-                            <h1>Hello, my name is Paul and welcome to my website.</h1>
+                            <h1 class='big'>Paul Ogawa</h1>
                                 <br>
-	                       <p class="slide1">Global-thinking Portland-based web devloper with Ruby on Rails skills.</p>
+	                       <h1> Portland-based junior web devloper with Ruby on Rails skills.</h1>
                         </div>
+                        <%=image_tag("bike.jpg") %>
                 </div>
             </div>
 
@@ -40,13 +41,19 @@
                     <div class="black slide2_margin">
                       <%= image_tag("og.jpg", :class => "style_image") %>   
                  	   <h1>A little about me:</h1>
-                    	<p>After spending my career in technical sales, I wanted to explore a new challenge and expend my passion for technology. </p> 
+                    	<p>After spending my career in technical sales, I wanted to explore a new challenge and expand my passion for technology. </p> 
+                        <br>
 
-                        <p>I enrolled in <%= link_to "Epicodus", "http://www.epicodus.com/" %>, a 4 month highly intensive, forty hours per week web development class where we gained valuable real life coding skills. Working in pairs, focusing on problem-solving, communication and </p>
+                        <p>I enrolled in <%= link_to "Epicodus", "http://www.epicodus.com/" %>, a 4 month highly intensive, forty hours per week web development class where we gained valuable real life coding skills. Working in pairs, we focusing on problem-solving, communication, utilizing version control and test driven development.</p>
+                        <br>
+
                         <p>
                         My newly acquired technical skills paired with my presentations skills present me the ability to not only create an app that looks as good as it functions, but to be able to convey the information to the client explaining the feature/benefit relationship of each art of the app. </p>
+                        <br>
 
                         <p>As the son of two teachers, I am continually looking to expand my knowledge base from Bootstrap to Foundation, PHP to Python, and from Old German to Pliny the Elder and I will use this to produce applications the both look as good as they function.</p>
+                        <br>
+
                         <p>
                         I look forward to hearing from you and as always if you have any questions, or just want to chat, drop me a line.</p>
                         </p>
@@ -54,12 +61,12 @@
                 </div>
             </div>
             <div id="slide-3" class="slide">
-                <div class="caption"
+                <div 
                     data-250p="opacity: 0; transform:translate(300px,0px);"
                     data-300p="opacity: 1; transform:translate(0px,0px);"
                     data-anchor-target="#helper"
                 >
-                    <h1 class="yellowtext">Interests:</h1>
+                    <h1 class="yellowtext">Work samples:</h1>
                     <p class="yellowtext">Technology, Traveling the work, Good food, Good drink, and Good company. </p>
                 </div>
             </div>
@@ -70,7 +77,8 @@
                     data-anchor-target="#helper"
                 >
                      <div class="white">
-                        <h1>Contact info</h1>
+                        <h1>If you want to drop me a line for a cup or coffee (or beer or wine) let me know.</h1>
+                        <p>Phone: 503-706-2762</p>
                         <p>paul.ogawa AT gmail.com</p>
                         <p><%= link_to image_tag("lindex.png", width: 60, height: 60 ), "http://www.linkedin.com/in/paulogawa/" %></p>
                         <p><%= link_to image_tag("index.png", width: 60, height: 60 ), "http://www.github.com/pogawa/" %></p>
@@ -93,5 +101,6 @@
 <script type="text/javascript">
     var s = skrollr.init();
 </script>
+
 
 
