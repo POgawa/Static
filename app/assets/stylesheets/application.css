@@ -58,11 +58,11 @@ h1{
 	border-radius: 100%;
 	border-width: 6px;
 	border-color: black;
-	border-style: dashed;
+	border-style: solid;
 	margin-left: 10%;
   	margin-right: 15%;
-  	width:450px;
-  	height: 450px;
+  	width:250px;
+  	height: 250px;
 }
 
 .slide2_margin{
