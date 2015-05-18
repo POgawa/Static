@@ -1,40 +1,46 @@
 <section class="module parallax parallax-1">
-  <div class="container">
-    <h1 class="left">Paul Ogawa</h1>
+  <div class="container-fluid">
+    <h1>"I have no special talents.  I am only passionately curious."</h1>
+    <h2 class="white">-Albert Einstein</h2>
   </div>
 </section>
 
 <section class="module content">
   <div class="container">
     <h2>So glad you could come!!</h2>
-
     <p>
-      Majestic mountain vistas and a verdant, tranquil setting nestled among expansive, bounteous vineyards are yours to enjoy as guests of Finca Ogawa — our little corner of Valle de Uco, a place of ever-growing renown as one of the eight great wine-producing regions of the world.
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ante molestie, rhoncus mauris consequat, tempus tellus. Praesent maximus eros nibh, in feugiat urna laoreet consequat. In commodo ultricies est non tristique. Cras ligula lectus, condimentum eget erat at, consectetur pretium ipsum. Nulla eget porttitor ligula. Nam id convallis odio. Donec consequat, ex vitae aliquam finibus, ante mi auctor orci, in rhoncus augue sem vel nulla.
+      Hello there, my name is Paul Ogawa and welcome to my site.
     </p>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ante molestie, rhoncus mauris consequat, tempus tellus. Praesent maximus eros nibh, in feugiat urna laoreet consequat. In commodo ultricies est non tristique. Cras ligula lectus, condimentum eget erat at, consectetur pretium ipsum. Nulla eget porttitor ligula. Nam id convallis odio. Donec consequat, ex vitae aliquam finibus, ante mi auctor orci, in rhoncus augue sem vel nulla.
-    
+      I remember the day I finally convinced my father to get a brand new 56k modem to install in our computer. The computer came alive and what was once black and white font became alive with photos and animations.
+        That was the day my passion for techonology took hold of me and hasn't let go since.
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ante molestie, rhoncus mauris consequat, tempus tellus. Praesent maximus eros nibh, in feugiat urna laoreet consequat. In commodo ultricies est non tristique. Cras ligula lectus, condimentum eget erat at, consectetur pretium ipsum. Nulla eget porttitor ligula. Nam id convallis odio. Donec consequat, ex vitae aliquam finibus, ante mi auctor orci, in rhoncus augue sem vel nulla.
-
+        I attended Oregon Institute of Technology to study applied psychology, fascinated on how the mind operates, trying to decypher the human operating system and after graduation proceeded into a successful career in technical sales with emphasis on cellular telecomminucation and computers.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ante molestie, rhoncus mauris consequat, tempus tellus. Praesent maximus eros nibh, in feugiat urna laoreet consequat. In commodo ultricies est non tristique. Cras ligula lectus, condimentum eget erat at, consectetur pretium ipsum. Nulla eget porttitor ligula. Nam id convallis odio. Donec consequat, ex vitae aliquam finibus, ante mi auctor orci, in rhoncus augue sem vel nulla.
-
+        During my sales career I was trained to become an excellent communicator, being able to convey technical concepts to non-technical people and to connect with a multitude of personalities.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ante molestie, rhoncus mauris consequat, tempus tellus. Praesent maximus eros nibh, in feugiat urna laoreet consequat. In commodo ultricies est non tristique. Cras ligula lectus, condimentum eget erat at, consectetur pretium ipsum. Nulla eget porttitor ligula. Nam id convallis odio. Donec consequat, ex vitae aliquam finibus, ante mi auctor orci, in rhoncus augue sem vel nulla.
+        After creating a successful sales career, I felt that I needed a new challange, a new mountain to climb, something to strive for. I enrolled in Epicodus development school and took off on a four month journey to technical enlightenment.
+      </p>
+      <p>
+        Always willing to challenge myself, to search out new things to learn and to never stop exploring, I hope to see you on the road to the unknown.
+      </p>
+      <p>
+        Feel free to drop me a line if you want to chat over a coffee or beer.
+      </p>
+      <p>
+        Thanks for coming
+      </p>
+      <p>
+        -Paul
       </p>
   </div>
 </section>
 
 <section class="module parallax parallax-2">
   <div class="container">
-    <h1 class="left">About Me</h1>
+    <h1 class="left">Selected works</h1>
     <br><br><br>
   </div>
 </section>
@@ -53,17 +59,20 @@
 
 <section class="module parallax parallax-3">
   <div class="container">
-    <h1 class="left">Selected works</h1>
+    <h1 class="left">Get in touch</h1>
   </div>
 </section>
 
 <section class="module content inline">
-  <ul class="inline">
-    <li> <%=link_to image_tag("index.png"), 'http://www.yahoo.com/' %> </li>
-    <li> <%=link_to image_tag("index.png"), 'http://www.yahoo.com/' %> </li>
-    <li> <%=link_to image_tag("index.png"), 'http://www.yahoo.com/' %> </li>
-    <li> <%=link_to image_tag("index.png"), 'http://www.yahoo.com/' %> </li>
-    <br><br><br><br><br><br><br>
-    </ul>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-8">
+        <%=link_to image_tag("index.png",  height: '10%', width: '10%'), 'http://www.github.com/pogawa' %>
+
+        <%=link_to image_tag("lindex.png", height: '10%', width: '10%'), 'http://https://www.linkedin.com/in/paulogawa/' %>
+
+        <%=mail_to "paul.ogawa7@gmail.com", image_tag("gmindex.jpg", height: '10%', width: '10%' ) %>
+      </div>
+    </div>
   </div>
 </section>
