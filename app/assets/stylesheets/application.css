@@ -66,7 +66,7 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 10px 0;
+	margin: 20px;
 }
 section.module.parallax {
   height: 600px;
@@ -145,6 +145,7 @@ body {
 
 ol, ul {
   list-style: none;
+	display: inline !important;
 }
 
 blockquote, q {
@@ -211,71 +212,7 @@ main {
 }
 
 /* ===========================================================
-/* =========================================================== ============================================================
-  FOOTER
-============================================================ */
-footer {
-  padding: 20px 0;
-}
-footer .asides {
-  margin-bottom: 20px;
-}
-footer aside {
-  margin-bottom: 10px;
-}
-footer nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-footer nav li {
-  display: inline-block;
-}
-footer nav a {
-  display: block;
-  margin: 0 5px;
-  color: #fff;
-}
-footer .logo {
-  text-align: center;
-}
-footer .logo img {
-  display: inline-block;
-  vertical-align: middle;
-}
-footer .copyright {
-  text-align: center;
-}
-footer .copyright small {
-  color: #fff;
-  font-size: 12px;
-}
-footer .copyright a {
-  color: #818181;
-}
-
-@media all and (min-width: 600px) {
-  footer aside {
-    margin-bottom: 0;
-    float: left;
-    width: 33.3333%;
-  }
-  footer nav ul {
-    text-align: left;
-  }
-  footer nav li {
-    display: block;
-  }
-  footer nav a {
-    display: inline-block;
-    margin: 0;
-  }
-  footer .logo {
-    text-align: right;
-  }
-}
-
+/*
 
 /* ============================================================
   TEXT LEVEL SEMANTICS
